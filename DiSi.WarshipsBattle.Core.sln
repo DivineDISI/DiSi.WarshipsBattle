@@ -5,6 +5,14 @@ VisualStudioVersion = 17.7.33808.371
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiSi.WarshipsBattle.Core", "DiSi.WarshipsBattle.Core\DiSi.WarshipsBattle.Core.csproj", "{A42AF39B-5D54-40A9-9DAF-E27F1EDBF78C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiSi.WarshipsBattle.DB", "DiSi.WarshipsBattle.DB\DiSi.WarshipsBattle.DB.csproj", "{E8A14A02-2922-480C-847E-72DE9C541CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiSi.WarsipsBattle.Api", "DiSi.WarsipsBattle.Api\DiSi.WarsipsBattle.Api.csproj", "{11990527-17A9-4E09-BA8A-B858F9801851}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{A97CDB4A-584F-4615-AC99-A2F5FEFCFBB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiSi.WarshipsBattle.TelegramBot", "DiSi.WarshipsBattle.TelegramBot\DiSi.WarshipsBattle.TelegramBot.csproj", "{BE5A7778-2890-42A6-A134-3BA14AC505C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,24 @@ Global
 		{A42AF39B-5D54-40A9-9DAF-E27F1EDBF78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A42AF39B-5D54-40A9-9DAF-E27F1EDBF78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A42AF39B-5D54-40A9-9DAF-E27F1EDBF78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A14A02-2922-480C-847E-72DE9C541CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A14A02-2922-480C-847E-72DE9C541CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A14A02-2922-480C-847E-72DE9C541CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A14A02-2922-480C-847E-72DE9C541CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11990527-17A9-4E09-BA8A-B858F9801851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11990527-17A9-4E09-BA8A-B858F9801851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11990527-17A9-4E09-BA8A-B858F9801851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11990527-17A9-4E09-BA8A-B858F9801851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5A7778-2890-42A6-A134-3BA14AC505C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5A7778-2890-42A6-A134-3BA14AC505C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5A7778-2890-42A6-A134-3BA14AC505C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5A7778-2890-42A6-A134-3BA14AC505C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE5A7778-2890-42A6-A134-3BA14AC505C8} = {A97CDB4A-584F-4615-AC99-A2F5FEFCFBB3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9EE9A7E5-7613-48D5-A1F4-FE0B3A65EFD7}
